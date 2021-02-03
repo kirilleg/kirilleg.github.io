@@ -1,0 +1,315 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    }
+    
+    header {
+    height: 50px;
+    background-color: #212121;
+    position:relative;
+    
+    }
+    
+    
+    .menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px 0px 70px;
+    margin-bottom:13px
+    }
+    .menu_link {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 68px;
+    text-align: left;
+  
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-decoration: none;
+    }
+    .menu .menu_item{
+    border-right: 2px dotted black;
+    padding-right: 28px;
+    }
+    
+    .call{
+    
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius:4px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 68px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-top: 19px;
+    }
+    .number{
+    
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 12px;
+    text-align: right;
+    text-transform: uppercase;
+    
+    font-style: normal;
+    letter-spacing: normal;
+    margin-top: 8px;
+    display:block
+    }
+    
+    .callus {
+   
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+   
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+    display:block;
+    margin-top: 23px;
+    }
+    
+    
+    .partner{
+    
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: "Roboto - Thin";
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-top: 6px;
+    }
+    .subheader{
+    
+    height: 84px;
+    background-color: rgba(0, 0, 0, .6);
+
+    
+    }
+    
+    .logo{
+    margin-top: 16px;
+    }
+    
+  
+    .promo{
+    display:block;
+    background: url(../src/img/car.jpg) center center/cover no-repeat;
+    min-height:800px;
+    
+    }
+    h1{
+    display:block;
+    margin-top: 80px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom:0px;
+    margin-top: 220px;
+    }
+    
+    .drivers{
+    font-family: "Roboto - Black";
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+ 
+    font-family: "Roboto - Bold";
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+    text-align: center;
+    color: #ffffff;
+    }
+    .descr{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding: 0px 31px;
+    }
+    .request{
+    
+    width: 259px;
+    height: 63px;
+    box-shadow: none;
+    border: 3px solid rgba(0, 0, 0, 0.07);
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 68px;
+    text-align: center;
+    text-transform: uppercase;
+  
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin:0 auto;
+    display:block;
+    margin-top: 110px;
+    }
+    
+
+      
+  
+     .icons{
+         display: flex;
+         justify-content: space-between;
+         
+     }
+     
+    
+       
+     
+
+    .item{
+       display:flex;
+       justify-content: center;
+       align-items: center;
+       width: 113px;
+       height: 113px;
+       background-color: #1eacc7;
+       margin-top: 0px;
+       align-items: center;
+       margin-bottom: 35px;
+       margin-top: 35px;
+       border-radius:100%;
+      }
+   
+     .reason{
+        width: 341px;
+        
+        color: #202020;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: justify;
+        float: right;
+        margin-left: 26px;
+        line-height: 21px;
+
+        
+     }
+     .header{
+      color: #1eacc7;
+font-family: "Roboto - Regular";
+font-size: 17px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+        
+        
+     }
+
+   
+    .zaebalsya{
+       display: inline-block;
+    }
+
+    .icons{
+       padding-left: 35px;
+       padding-right: 43px
+    }
+    .sec{
+       display:flex;
+       justify-content: center;
+       align-items:center;
+    }
+
+   .zagolovok{
+      color: #222222;
+      font-family: Roboto;
+      font-size: 38px;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 48px;
+      text-align: center;
+      text-transform: uppercase;
+     
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: normal;
+      margin-top: 30px;
+   
+  }
+  .container{
+     width: 1140px;
+  }
+  
+  .zhopa{
+   display:block;
+   color: #ffffff;
+   font-family: "Roboto - Thin";
+   font-size: 11px;
+   font-weight: 400;
+   font-style: normal;
+   letter-spacing: normal;
+   line-height: 24px;
+   text-align: center;
+   text-transform: uppercase;
+   /* Text style for "преимущест" */
+   font-style: normal;
+   letter-spacing: normal;
+   background-color:black;
+   width:114px;
+   margin: 0 auto;
+   margin-top: 71px;
+   height: 24px;
+   align-items:center
+   
+
+
+  }
+
+
+  
